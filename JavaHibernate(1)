@@ -1,3 +1,9 @@
 EE的三层结构
-客户端层         JavaApplet
+
+      web 层            --->  业务层    --->  持久层
+    Servlet,JSP              JavaNean          JDBC
+    Struts2                  SPring           Hibernate
+    SpringMVC                                 MyBatis                 
+    Structs1                                  DbUtils
+    webwork                                   JdbcTemplate
 
