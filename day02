@@ -6,3 +6,43 @@
    对持久化提供一个唯一一个标识OID与数据库主键对应   
    持久化类中属性尽量使用包装类类型
    持久化类不要使用final进行修饰
+
+Hibernate_day02总结
+     Hibenate的持久化类的编写规则
+             编写规则
+                 无参构造
+                 属性私有
+                 提供唯一标识OID
+                 尽量使用包装类
+                 不能使用final修饰
+     Hibernate的主键生成策略
+             主键分类
+                 自然主键
+                 代理主键
+             生成策略
+                 increment
+                 identity
+                 sequence
+                 uuid 
+                 native
+                 assgned
+                 foreign
+     Hibernate的持久化三个状态
+             状态的转换（了解）
+             Hibernate的一级缓存：hibernate优化手段，称为是session级别缓存
+                                  快照区
+             Hibernate特殊区域
+     Hibernate的事务管理
+             事务的回顾
+                事务的概念
+                事务的特性
+                事务的特性
+                引发安全性问题解决
+             Hibernate解决读问题
+                配置设置隔离级别
+             Hibernate解决Service事务
+                采用的是线程绑定的方式
+     Hibernate的其他API
+             Query        ：HQL面向对象方式的查询
+             Criterion    ：QBC完成面向对象化
+             SQLQuery     ：SQL查询
