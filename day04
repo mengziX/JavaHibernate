@@ -1,0 +1,49 @@
+
+
+总结 ---- Hibernate的查询方式
+                   OID检索
+                   对象导航检索
+                   HQL检索
+                       简单查询
+                       别名查询
+                       排序查询
+                       分组统计查询
+                       条件查询
+                       投影查询
+                       分页查询
+                       多表查询
+                          内连接
+                             内连接与迫切内连接的区别 
+                   QBC检索
+                       简单查询
+                       排序查询
+                       条件查询
+                       分页查询
+                       统计查询
+                       离线条件查询
+                   SQL检索
+         Hibernate的抓取策略---面试
+                  延迟加载
+                       类级别延迟
+                           在<class>标签上配置lazy属性
+                       关联级别的延迟
+                           在set和many-to-one上配置lazy属性
+                  抓取策略
+                       <set>上fetch和lazy
+                           fetch:控制SQL格式
+                                   select
+                                   join
+                                   subselect
+                           lazy :控制是否采用延迟
+                                   true
+                                   false
+                                   extra
+                       <many-to-one>上fetch和lazy
+                              fetch:控制SQL格式
+                                     select
+                                     join
+                              lazy :控制是否采用延迟
+                                     proxy
+                                     false
+                                     no-prozy
+                       批量抓取
